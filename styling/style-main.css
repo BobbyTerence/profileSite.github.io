@@ -6,14 +6,15 @@ body {
     margin: auto 5%;
 }
 
-.nav {
+div .nav {
     background-color:#2C3E50;
-    position:sticky;
+    padding: 2.5%;
+    position: sticky;
     top: 0;
 }
 
-.nav a {
+div .nav a {
     text-decoration: none;
     color:#FFFFFF;
-    display:flex;
+    display: inline-block;
 }
