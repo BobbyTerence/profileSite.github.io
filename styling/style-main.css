@@ -1,7 +1,19 @@
+header {
+    text-align:center;    
+}
+
 body {
     margin: auto 5%;
 }
 
-header {
-    text-align:center;    
+.nav {
+    background-color:#2C3E50;
+    position:sticky;
+    top: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color:#FFFFFF;
+    display:flex;
 }
