@@ -4,18 +4,20 @@ header {
 }
 
 body {
-    margin: auto 5%;
-    font-size: 100%;
+    margin: none;
+    border-width: 0pt;
 }
 
-#headshot {
-    width: 10%;
-    height: 20%;
+/* General Styling Tools */
+.space {
+    width: 5em;
 }
 
+/* Nav Bar Styling */
 .nav {
     background-color:#2C3E50;
     padding: .5%;
+    text-align: center;
     position: sticky;
     top: 0;
 }
@@ -24,15 +26,53 @@ body {
     text-decoration: none;
     color:#FFFFFF;
     display: inline-block;
+    margin: auto 2em;
 }
 
+/* General Content Styling Rules */
+.content {
+    margin: auto 5%;
+    display:flex;
+}
+
+#education > h3 {
+    margin: 0;
+}
+
+.edu-bullet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list ul {
+    padding-inline-start: 15%;
+}
+
+/* Resume Setion of Page */
 .resume {
-    width: 33%;
-    height: 50vh;
+    width: 45rem;
     display: flex;
     flex-direction: row;
 }
 
-.content {
-    display:flex;
+.resume > #res-left {
+    width: 35em;
+}
+
+.resume > #res-right {
+    width: 45em;
+}
+
+/* Contains the General About Me Section*/
+.other {
+    width: 50rem;
+}
+
+.other h2 {
+    margin-bottom:.25em;
+}
+
+.other p {
+    margin-top:.10em;
 }
