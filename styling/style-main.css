@@ -33,6 +33,7 @@ body {
 .content {
     margin: auto 5%;
     display:flex;
+    justify-content: center;
 }
 
 #education > h3 {
@@ -75,4 +76,59 @@ body {
 
 .other p {
     margin-top:.10em;
+}
+
+/* Mobile Styling */
+/* Mobile-specific styling */
+@media (max-width: 600px) {
+    header {
+        padding: 1em 0;
+    }
+
+    .nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    .content {
+        flex-direction: column;
+        margin: auto 2%;
+    }
+
+    .resume {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .resume > #res-left,
+    .resume > #res-right {
+        width: 100%;
+    }
+
+    .space {
+        width: 1em;
+    }
+
+    .other {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .other h2,
+    .resume h2 {
+        font-size: 1.5em;
+    }
+
+    .other p {
+        font-size: 0.9em;
+        line-height: 1.6;
+    }
+
+    .edu-bullet {
+        flex-direction: column;
+    }
+
+    .list ul {
+        padding-inline-start: 2em;
+    }
 }
