@@ -1,0 +1,39 @@
+$header-font-stack: "Oswald", sans-serif;
+$font-stack: "Manrope", sans-serif;
+$nav-bar: #2C3E50; //This is a temp variable name, will need to flesh out the color scheme at some point
+
+//Header Styling
+header {
+    font-family: $header-font-stack;
+    text-align: center;;
+    margin: none;
+}
+
+#content {
+    font-family: $font-stack;
+
+    #resume {
+        h3 {
+            font-weight: bold;
+            font-size: larger;
+        }
+    }
+}
+
+
+// Navigation bar styling
+.nav {
+    background-color: $nav-bar;
+    padding: .5%;
+    justify-content: center;
+    font-family: $font-stack;
+    position: sticky;
+    top: 0;
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        display: inline-block;
+        margin: auto 2em;
+    }
+}

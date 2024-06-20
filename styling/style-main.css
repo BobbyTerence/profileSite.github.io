@@ -1,134 +1,30 @@
 header {
-    text-align:center;
-    margin: none;
-}
-
-body {
-    margin: none;
-    border-width: 0pt;
-}
-
-/* General Styling Tools */
-.space {
-    width: 5em;
-}
-
-/* Nav Bar Styling */
-.nav {
-    background-color:#2C3E50;
-    padding: .5%;
+    font-family: "Oswald", sans-serif;
     text-align: center;
+    margin: none;
+  }
+
+  #content {
+    font-family: "Manrope", sans-serif;
+  }
+  #content #resume h3 {
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .nav {
+    background-color: #2C3E50;
+    padding: 0.5%;
+    justify-content: center;
+    font-family: "Manrope", sans-serif;
     position: sticky;
     top: 0;
-}
-
-.nav a {
+  }
+  .nav a {
     text-decoration: none;
-    color:#FFFFFF;
+    color: #FFFFFF;
     display: inline-block;
     margin: auto 2em;
-}
+  }
 
-/* General Content Styling Rules */
-.content {
-    margin: auto 5%;
-    display:flex;
-    justify-content: center;
-}
-
-#education > h3 {
-    margin: 0;
-}
-
-.edu-bullet {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.list ul {
-    padding-inline-start: 15%;
-}
-
-/* Resume Setion of Page */
-.resume {
-    width: 45rem;
-    display: flex;
-    flex-direction: row;
-}
-
-.resume > #res-left {
-    width: 35em;
-}
-
-.resume > #res-right {
-    width: 45em;
-}
-
-/* Contains the General About Me Section*/
-.other {
-    width: 50rem;
-}
-
-.other h2 {
-    margin-bottom:.25em;
-}
-
-.other p {
-    margin-top:.10em;
-}
-
-/* Mobile Styling */
-/* Mobile-specific styling */
-@media (max-width: 600px) {
-    header {
-        padding: 1em 0;
-    }
-
-    .nav a {
-        display: block;
-        margin: 0.5em 0;
-    }
-
-    .content {
-        flex-direction: column;
-        margin: auto 2%;
-    }
-
-    .resume {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .resume > #res-left,
-    .resume > #res-right {
-        width: 100%;
-    }
-
-    .space {
-        width: 1em;
-    }
-
-    .other {
-        width: 100%;
-        margin-top: 2em;
-    }
-
-    .other h2,
-    .resume h2 {
-        font-size: 1.5em;
-    }
-
-    .other p {
-        font-size: 0.9em;
-        line-height: 1.6;
-    }
-
-    .edu-bullet {
-        flex-direction: column;
-    }
-
-    .list ul {
-        padding-inline-start: 2em;
-    }
-}
+  /*# sourceMappingURL=style-main.css.map */
