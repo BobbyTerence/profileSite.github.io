@@ -1,0 +1,5 @@
+# DS Files
+*.DS_Store
+
+# Template page
+template-page.html
