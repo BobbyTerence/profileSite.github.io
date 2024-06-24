@@ -42,6 +42,11 @@ header {
     margin-bottom: 3.5em;
 }
 
+// Remove mobile only elements
+.nav-mobile {
+    display: none;
+}
+
 // Create Mobile Styling rules
 @media screen and (max-width:430px){ // Mobile Portrait
     .nav-mobile {
