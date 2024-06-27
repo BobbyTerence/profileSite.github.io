@@ -31,6 +31,10 @@ header {
   margin-bottom: 3.5em;
 }
 
+.nav-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 430px) {
   .nav-mobile {
     background-color: #2C3E50;
