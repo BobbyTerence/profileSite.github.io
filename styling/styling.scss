@@ -25,7 +25,7 @@ header {
 .nav-desk {
     background-color: $nav-bar;
     padding: .5%;
-    justify-content: center;
+    text-align: center;
     font-family: $font-stack;
     position: sticky;
     top: 0;
@@ -73,6 +73,8 @@ header {
         svg {
             margin: .5%;
         }
+
+        display: flex;
     }
 
     #gen-info{

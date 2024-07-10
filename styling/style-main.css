@@ -15,7 +15,7 @@ header {
 .nav-desk {
   background-color: #2C3E50;
   padding: 0.5%;
-  justify-content: center;
+  text-align: center;
   font-family: "Manrope", sans-serif;
   position: sticky;
   top: 0;
@@ -31,10 +31,15 @@ header {
   margin-bottom: 3.5em;
 }
 
+.nav-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 430px) {
   .nav-mobile {
     background-color: #2C3E50;
     text-align: end;
+    display: flex;
   }
   .nav-mobile .center {
     text-align: center;
